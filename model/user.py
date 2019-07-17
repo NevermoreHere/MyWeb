@@ -12,3 +12,6 @@ class user_model:
 
     def get_info(self):
         print self.type, self.user_name, self.user_password
+
+    def get_favorite(self):
+        print "favorite list:"
